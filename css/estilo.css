@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header nav ul{
+header nav{
     display: flex;
     align-content: space-between;
     color: blue;
