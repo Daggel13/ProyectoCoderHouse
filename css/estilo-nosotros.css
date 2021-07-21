@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto; }
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.card__thumbnail {
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block; }
+
+.card__img {
+  width: 100%; }
+
+.card__titulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px; }
+
+.card__enlace {
+  color: black;
+  text-decoration: none; }
+
+.card__enlace:hover {
+  color: #C27BA1; }
+
+.card__about {
+  line-height: 28px;
+  color: #6d6d6d;
+  margin-bottom: 20px; }
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #403cc2;
+  transition: .3s ease all; }
+
+.boton:hover {
+  background: #1b1881;
+  text-decoration: none;
+  color: white; }
+
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25px; }
+
+.boton--verde {
+  background: #7ba771; }
+
+.boton--verde:hover {
+  background: #437837; }
