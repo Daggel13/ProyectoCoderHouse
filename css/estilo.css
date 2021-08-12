@@ -16,6 +16,7 @@ body{
 }
 
 @media only screen and (max-width:600px){
+
     #grillaGaleria{
         display: none;
     }
@@ -44,10 +45,10 @@ body{
         font-weight: 400;
     }
     .primerParrafo{
-        font-size: 8vw;
+        font-size: 15px;
     }
     .segundoP{
-        font-size: 8vw;
+        font-size: 15px;
     }
 
 
@@ -312,7 +313,7 @@ header nav ul li{
 
 .primerParrafo{
     color: #000000;
-    font-size: 23px;
+    font-size: 18px;
     padding-top: 20px;
 }
     
@@ -330,7 +331,7 @@ header nav ul li{
 
 .segundoP{
     color: #000000;
-    font-size: 23px;
+    font-size: 18px;
     padding-top: 20px;
 
 }
@@ -597,7 +598,7 @@ header nav ul li{
 .primerParrafo{
     
     color: #000000;
-    font-size: 23px;
+    font-size: 18px;
     padding-top: 20px;
 }
     
@@ -615,7 +616,7 @@ header nav ul li{
 
 .segundoP{
     color: #000000;
-    font-size: 23px;
+    font-size: 18px;
     padding-top: 20px;
 
 }
@@ -755,6 +756,8 @@ footer a{
     font-family: 'Montserrat', sans-serif;
     
 }
+
+
 
 
 
